@@ -1,20 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="Animated coding terminal introduction">
-<defs><linearGradient id="frame" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset=".55" stop-color="#7c3aed"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-<clipPath id="reveal1"><rect x="70" y="99" width="0" height="29"><animate attributeName="width" values="0;0;800;800" keyTimes="0;.08;.48;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="reveal2"><rect x="70" y="150" width="0" height="28"><animate attributeName="width" values="0;0;800;800" keyTimes="0;.38;.76;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="reveal3"><rect x="70" y="204" width="0" height="26"><animate attributeName="width" values="0;0;800;800" keyTimes="0;.63;.92;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
-</defs>
-<rect x="2" y="2" width="956" height="256" rx="18" fill="#0c1424" stroke="#344667" stroke-width="3"/>
-<rect x="2" y="2" width="956" height="42" rx="18" fill="#17253a"/>
-<rect x="2" y="33" width="956" height="12" fill="#17253a"/>
-<circle cx="27" cy="24" r="6" fill="#f87171"/><circle cx="48" cy="24" r="6" fill="#fbbf24"/><circle cx="69" cy="24" r="6" fill="#34d399"/>
-<text x="480" y="29" fill="#b9c6e1" font-family="monospace" font-size="15" text-anchor="middle">subhan@github: ~/about-me</text>
-<text x="35" y="79" font-family="monospace" fill="#67e8f9" font-size="23">$ whoami</text>
-<text x="73" y="124" clip-path="url(#reveal1)" font-family="monospace" fill="#e9f1ff" font-size="21">Muhammad Subhan Ahmad — BS Software Engineering</text>
-<text x="35" y="164" font-family="monospace" fill="#67e8f9" font-size="22">$ currently_learning</text>
-<text x="73" y="178" clip-path="url(#reveal2)" font-family="monospace" fill="#c4b5fd" font-size="19">C++  |  Python  |  Git  |  AI automation</text>
-<text x="35" y="215" font-family="monospace" fill="#67e8f9" font-size="21">$ mission</text>
-<text x="73" y="231" clip-path="url(#reveal3)" font-family="monospace" fill="#e5edf7" font-size="18">Build useful software, one project at a time.</text>
-<rect x="843" y="218" width="12" height="18" fill="#67e8f9"><animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
-<rect x="12" y="251" width="100" height="3" rx="1" fill="url(#frame)"><animate attributeName="x" values="12;846;12" dur="7s" repeatCount="indefinite"/></rect>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="Hacker style coding terminal">
+  <defs>
+    <linearGradient id="borderGlow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00ff66"/>
+      <stop offset="50%" stop-color="#00cc44"/>
+      <stop offset="100%" stop-color="#00ff66"/>
+    </linearGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="line1">
+      <rect x="82" y="98" width="0" height="26">
+        <animate attributeName="width" values="0;0;720;720" keyTimes="0;0.1;0.45;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line2">
+      <rect x="82" y="144" width="0" height="26">
+        <animate attributeName="width" values="0;0;720;720" keyTimes="0;0.35;0.7;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line3">
+      <rect x="82" y="190" width="0" height="26">
+        <animate attributeName="width" values="0;0;760;760" keyTimes="0;0.6;0.92;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="256" rx="18" fill="#050807" stroke="url(#borderGlow)" stroke-width="3"/>
+
+  <rect x="2" y="2" width="956" height="40" rx="18" fill="#0d120f"/>
+  <rect x="2" y="28" width="956" height="14" fill="#0d120f"/>
+
+  <circle cx="28" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+
+  <text x="480" y="27" text-anchor="middle" font-family="monospace" font-size="14" fill="#79ffb0">
+    root@subhan: ~/hacker-mode
+  </text>
+
+  <g opacity="0.08" stroke="#00ff66">
+    <line x1="18" y1="62" x2="942" y2="62"/>
+    <line x1="18" y1="82" x2="942" y2="82"/>
+    <line x1="18" y1="102" x2="942" y2="102"/>
+    <line x1="18" y1="122" x2="942" y2="122"/>
+    <line x1="18" y1="142" x2="942" y2="142"/>
+    <line x1="18" y1="162" x2="942" y2="162"/>
+    <line x1="18" y1="182" x2="942" y2="182"/>
+    <line x1="18" y1="202" x2="942" y2="202"/>
+    <line x1="18" y1="222" x2="942" y2="222"/>
+  </g>
+
+  <text x="35" y="78" font-family="monospace" font-size="22" fill="#00ff66" filter="url(#softGlow)">
+    &gt; whoami
+  </text>
+
+  <text x="82" y="118" font-family="monospace" font-size="20" fill="#b7ffcb" clip-path="url(#line1)" filter="url(#softGlow)">
+    Muhammad Subhan Ahmad :: Software Engineering Student
+  </text>
+
+  <text x="35" y="150" font-family="monospace" font-size="22" fill="#00ff66" filter="url(#softGlow)">
+    &gt; skills --scan
+  </text>
+
+  <text x="82" y="166" font-family="monospace" font-size="19" fill="#8dffb3" clip-path="url(#line2)" filter="url(#softGlow)">
+    C++ | Python | Git | GitHub | VS Code | AI Automation
+  </text>
+
+  <text x="35" y="198" font-family="monospace" font-size="22" fill="#00ff66" filter="url(#softGlow)">
+    &gt; mission
+  </text>
+
+  <text x="82" y="214" font-family="monospace" font-size="18" fill="#d6ffe3" clip-path="url(#line3)" filter="url(#softGlow)">
+    Build useful software. Learn deeply. Ship better projects every day.
+  </text>
+
+  <rect x="840" y="198" width="11" height="20" fill="#00ff66" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="14" y="248" width="120" height="4" rx="2" fill="#00ff66">
+    <animate attributeName="x" values="14;826;14" dur="6s" repeatCount="indefinite"/>
+  </rect>
 </svg>
