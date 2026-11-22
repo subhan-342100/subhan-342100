@@ -1,5 +1,5 @@
-# repository
-Building full-stack web apps, C++ tools &amp; Python voice/automation scripts. B.S. in Software Engineering (FAST-NUCES) with an AI background. Blending code &amp; craft.
+# Muhammad Subhan Ahmad — Developer Profile
+
 <h1 align="center">Hi 👋, I'm Muhammad Subhan Ahmad</h1>
 <h3 align="center">Software Engineering Student | Exploring AI & Automation</h3>
 
