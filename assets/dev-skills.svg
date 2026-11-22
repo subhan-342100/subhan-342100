@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="105" viewBox="0 0 950 105" role="img" aria-label="Animated skill highlights C++ Python Git GitHub VS Code">
+<rect width="950" height="105" rx="18" fill="#101a2b"/>
+<g font-family="Verdana, Arial, sans-serif" font-size="21" font-weight="bold" text-anchor="middle">
+<g fill="#1a2c45" stroke="#2c486b"><rect x="17" y="25" width="164" height="55" rx="14"/><rect x="205" y="25" width="164" height="55" rx="14"/><rect x="393" y="25" width="164" height="55" rx="14"/><rect x="581" y="25" width="164" height="55" rx="14"/><rect x="769" y="25" width="164" height="55" rx="14"/></g>
+<g fill="#e2efff"><text x="99" y="61">C++</text><text x="287" y="61">PYTHON</text><text x="475" y="61">GIT</text><text x="663" y="61">GITHUB</text><text x="851" y="61">VS CODE</text></g>
+</g>
+<rect x="17" y="25" width="164" height="55" rx="14" fill="none" stroke="#67e8f9" stroke-width="3">
+<animate attributeName="x" values="17;205;393;581;769;17" keyTimes="0;.2;.4;.6;.8;1" dur="9s" repeatCount="indefinite"/>
+</rect>
+</svg>
