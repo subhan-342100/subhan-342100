@@ -17,10 +17,6 @@
 ---
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/subhan-342100/subhan-342100/main/assets/subhan-sketch-reveal.svg" alt="Muhammad Subhan Ahmad sketch-to-color portrait animation" width="235" />
-</p>
-
 ### 👨‍💻 About Me
 
 - 🎓 BS Software Engineering student at **FAST-NUCES, Chiniot–Faisalabad Campus**.
