@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Muhammad Subhan Ahmad developer profile animated banner">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset=".55" stop-color="#151536"/><stop offset="1" stop-color="#092a43"/></linearGradient>
+ <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#48d5ff"/><stop offset=".55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#48d5ff"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect x="1.5" y="1.5" width="997" height="257" rx="23" fill="url(#bg)" stroke="#334765" stroke-width="3"/>
+<circle cx="210" cy="40" r="100" fill="#0ea5e9" opacity=".17" filter="url(#blur)"><animate attributeName="cx" values="170;300;170" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="200" r="125" fill="#7c3aed" opacity=".25" filter="url(#blur)"><animate attributeName="cx" values="770;680;770" dur="7s" repeatCount="indefinite"/></circle>
+<g fill="none" stroke="#6abaff" stroke-opacity=".2"><path d="M34 215 L180 70 M830 230 L970 90"/><path d="M80 250 L220 110 M790 250 L960 70"/></g>
+<rect x="325" y="27" width="350" height="28" rx="14" fill="#10263a" stroke="#2b567e"/>
+<text x="500" y="46" fill="#81dfff" text-anchor="middle" font-size="14" font-family="Verdana, Arial, sans-serif" font-weight="bold" letter-spacing="3">WELCOME TO MY GITHUB</text>
+<text x="500" y="119" fill="#eff6ff" text-anchor="middle" font-size="44" font-family="Verdana, Arial, sans-serif" font-weight="bold">MUHAMMAD SUBHAN AHMAD</text>
+<text x="500" y="165" fill="#c4b5fd" text-anchor="middle" font-size="20" font-family="Verdana, Arial, sans-serif" letter-spacing="2">SOFTWARE ENGINEERING  /  AI &amp; AUTOMATION</text>
+<text x="500" y="203" fill="#a8c0d5" text-anchor="middle" font-size="16" font-family="Verdana, Arial, sans-serif">Building skills. Sharing progress. Shipping projects.</text>
+<rect x="160" y="234" width="680" height="3" rx="2" fill="#233a56"/>
+<rect x="160" y="234" width="140" height="3" rx="2" fill="url(#edge)"><animate attributeName="x" values="160;700;160" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
